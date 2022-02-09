@@ -16,3 +16,21 @@
 .page{
     font-size:x-large
 }
+.content{
+    background-color: lightgrey;          
+}
+.btn{
+    background-color: aqua;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: aqua;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 90px;
+}
+.btn:hover{
+     background-color: white;
+     color: red;
+
+}
