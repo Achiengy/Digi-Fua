@@ -10,8 +10,8 @@ justify-content: space-between;
 height: 500px;
 }
 .write {
-width: 30em;
-height: 2em;
+width: 20em;
+height: 2.5em;
 border: 1px solid white;
 border-radius: 20px;
 background-color: white;
@@ -32,8 +32,16 @@ margin-top: 3em;
 .form1 {
 margin-left: 3em;
 float: left;
+font-family: 'Roboto' sans-serif;
 }
 .form2 {
 display: flex;
 margin-right: 3em;
+font-family: 'Roboto'sans-serif;
+}
+.address {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+justify-content: space-around;
 }
