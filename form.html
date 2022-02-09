@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+
+<body>
+    <h1>ORDER FORM</h1>
+    <div class="form-container">
+        <div class="form1">
+            <form>
+                <h2>PICK AND DROP</h2>
+                <label for="fname">Name:</label><br>
+                <input type="text" id="fname" placeholder="Enter Your Name"><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" placeholder="example@gmail.com"> <br><br>
+                <label for="PhoneNo">Phone Number:</label><br>
+                <input type="tel" id="phone" placeholder="07xxxxxxxx"><br><br>
+                <label for="station">Pick Up Station:</label><br>
+                <select name="station" id="station"><br><br>
+                    <option value="">Pick Your Location</option>
+                    <option value="Multimedia">Multimedia University</option>
+                    <option value="Nazarene">African Nazarene University</option>
+                    <option value="Catholic">Catholic university</option>
+                    <option value="Cooperative">Cooperative University</option>
+                    <option value="Rongai">Rongai Stage</option>
+                </select><br><br>
+                <label for="ppt">Select Pick UP Time</label><br>
+                <input type="time" id="appt" name="appt" min="09:00" max="18:00" require><br><br>
+                <br>
+                <button class="btn">GET PRICE ESTIMATE</button>
+            </form>
+        </div>
