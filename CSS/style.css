@@ -2,4 +2,80 @@
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
+    flex-wrap: wrap;
+    
+
 }
+h1{
+    position: relative;
+    left: 700px;
+    font-size: 40px;
+}
+.p1{
+    position: relative;
+    left: 600px;
+    font-style: italic;
+    color: #23A6F0;
+    font-size: 30px;
+
+}
+.service{
+    display:flex;
+
+}
+.inservice{
+    background-color: whitesmoke; 
+    box-shadow:10px;
+    height: 600px;
+    border: 1px solid red;
+    box-shadow: 10px;
+    
+
+}
+.door{
+    background-color: whitesmoke;
+    height: 600px;
+    box-shadow: 100px;
+    border: 1px solid red;
+}
+#bt1{
+    padding: 10px;
+    border:1px solid;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    background-color:blue;
+    position: relative; 
+    left: 100px;
+    top: 20px;
+    border-style:none ;
+
+}
+
+.reviews{
+    padding-top:10px;
+    display: flex;
+    background-color: whitesmoke;
+    height: 300px;
+    width: 1000px;
+    align-items: center; 
+    position:relative;
+    left: 300px;
+    margin-top: 60px; 
+   
+}
+.rv2{
+    position: relative;
+    left: 300px;
+    
+
+}
+.door{
+    position: relative;
+    left:300px;
+}
+#icons{
+    color: orange;
+    size: 200px;
+}
+
