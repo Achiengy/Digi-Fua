@@ -45,3 +45,13 @@ flex-wrap: wrap;
 justify-content: center;
 justify-content: space-around;
 }
+.bottom {
+display: flex;
+justify-content: center;
+margin-top: 2em;
+}
+.media {
+display: flex;
+justify-content: space-between;
+margin-left: 1em;
+}
