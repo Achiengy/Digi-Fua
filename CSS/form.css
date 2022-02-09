@@ -26,3 +26,10 @@ h1 {
   text-align: center;
   background-color: blue;
 }
+.btn {
+  background-color: blueviolet;
+  border-radius: 10px;
+  height: 35px;
+  margin-top: 5%;
+  margin-left: 40%;
+}
