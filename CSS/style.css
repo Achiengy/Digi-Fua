@@ -3,6 +3,10 @@ text-align: center;
 text-decoration: underline;
 position: relative;
 }
+h3 {
+font-style: normal;
+font-weight: lighter;
+}
 .bgc {
 background-color: #C4C4C4;
 display: flex;
