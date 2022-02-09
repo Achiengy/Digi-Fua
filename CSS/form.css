@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+}
+.form-container {
+  display: flex;
+  background-color: lightgray;
+}
+.form1 {
+  border: groove;
+  margin: 20px;
+  padding: 10px;
+  flex-direction: left;
+  width: 400px;
+  height: 500px;
+  color: black;
+  margin-right: 250px;
+}
