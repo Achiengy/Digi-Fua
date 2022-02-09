@@ -33,3 +33,17 @@ h1 {
   margin-top: 5%;
   margin-left: 40%;
 }
+.form2 {
+  border: groove;
+  margin: 20px;
+  padding: 10px;
+  flex-direction: left;
+  width: 400px;
+  height: 500px;
+}
+.form2 h2 {
+  border: groove;
+  margin: 10px;
+  text-align: center;
+  background-color: rgb(107, 107, 243);
+}
