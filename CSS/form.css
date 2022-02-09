@@ -47,3 +47,26 @@ h1 {
   text-align: center;
   background-color: rgb(107, 107, 243);
 }
+input {
+  padding-top: 10px;
+  width: 80%;
+  height: 5%;
+  margin-left: 10px;
+  opacity: 0.5;
+  border-radius: 5px;
+}
+label {
+  margin-left: 10px;
+  font-weight: bold;
+}
+select {
+  width: 80%;
+  height: 5%;
+  margin-left: 10px;
+  opacity: 0.5;
+  border-radius: 5px;
+  padding-top: 10px;
+}
+option {
+  font-size: 16px;
+}
