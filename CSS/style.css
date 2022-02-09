@@ -1,8 +1,20 @@
 *{
-    box-sizing: border-box;
-    margin: 0%;
     padding: 0%;
-    flex-wrap: wrap;
+    margin: 0%;
+    box-sizing: border-box;
+    max-width: 2000px;
+
+}
+
+
+
+.container3{
+    position: absolute;
+    background-color: #bbb;
+    width: 100%;
+    height:130vh;
+    top: 0;
+    left: 0;
 
 }
 h1{
@@ -10,7 +22,7 @@ h1{
     left: 700px;
     font-size: 40px;
 }
-.p1{
+#p1{
     position: relative;
     left: 600px;
     font-style: italic;
@@ -20,7 +32,7 @@ h1{
 }
 .inservice img{
     height: 350px;
-    width: 400px;
+    width: 550px;
     position: relative;
     left: 20px;
     margin: 10px;
@@ -31,7 +43,7 @@ h1{
 }
 .door img{
     height: 350px;
-    width: 400px;
+    width: 550px;
     position: relative;
     left: 20px;
     margin-top: 10px;
@@ -42,22 +54,25 @@ h3{
 }
 
 .inservice{
-    background-color: whitesmoke; 
+    background:#c4c4c4; 
     box-shadow:100px;
-    height: 550px;
-    border: 1px solid red;
+    height: 600px;
     box-shadow: 10px;
     position: relative;
     left: 100px;
+    width: 650px;
+    
 
 }
 .door{
-    background-color: whitesmoke;
-    height: 550px;
+    background:#c4c4c4;
+    height: 600px;
     box-shadow: 100px;
-    border: 1px solid red;
     position: relative;
     left: 100px;
+    width: 650px;
+    
+    
 
 }
 #bt1{
@@ -68,7 +83,7 @@ h3{
     text-decoration: none;
     background-color:blue;
     position: relative; 
-    left: 150px;
+    left: 200px;
     top: 40px;
     border-style:none ;
 
@@ -79,27 +94,49 @@ h3{
     display: flex;
     background-color: whitesmoke;
     height: 300px;
-    width: 1000px;
+    width: 1400px;
     align-items: center; 
     position:relative;
-    left: 300px;
+    left: 250px;
     margin-top: 60px; 
    
 }
 .rv2{
     position: relative;
-    left: 250px;
+    left: 550px;
+    font-size: 20px;
 
 }
 .rv1{
     margin-left: 30px;
+    font-size: 20px;
 }
 .door{
     position: relative;
     left:300px;
 }
-#icons{
+.fas{
     color: orange;
-    size: 200px;
+    width: 100px;
+    height: 20%;
 }
+.checked{
+    color: goldenrod;
+}
+.check{
+    color: gray;
+}
+.wash{
+    position: relative;
+    left: 300px;
+    height: 400px;
+    width: 300px;
+    margin-top: 200px;
+    
+    
+}
+.service :hover{
+    color:blue;
+}
+
 
