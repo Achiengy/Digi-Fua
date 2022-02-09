@@ -5,6 +5,7 @@ text-decoration: underline;
 .bgc {
 background-color: #C4C4C4;
 display: flex;
+flex-wrap: wrap;
 justify-content: space-between;
 height: 500px;
 }
@@ -17,7 +18,7 @@ background-color: white;
 }
 .message {
 width: 30em;
-height: 10em;
+height: 15em;
 border-radius: 20px;
 background-color: white
 }
@@ -26,6 +27,7 @@ background-color: #23A6F0;
 width: 8em;
 height: 3em;
 border-radius: 2em;
+margin-top: 3em;
 }
 .form1 {
 margin-left: 3em;
@@ -33,4 +35,5 @@ float: left;
 }
 .form2 {
 display: flex;
+margin-right: 3em;
 }
