@@ -1,6 +1,7 @@
 h1 {
 text-align: center;
 text-decoration: underline;
+position: relative;
 }
 .bgc {
 background-color: #C4C4C4;
@@ -19,8 +20,9 @@ background-color: white;
 .message {
 width: 30em;
 height: 15em;
+border: 1px;
 border-radius: 20px;
-background-color: white
+background-color: white;
 }
 #btn {
 background-color: #23A6F0;
@@ -54,4 +56,14 @@ margin-top: 2em;
 display: flex;
 justify-content: space-between;
 margin-left: 1em;
+}
+button:hover {
+color: white;
+cursor: pointer; 
+}
+#feedback {
+display: flex;
+justify-content: center;
+background-color: #23A6F0;
+font-size: xx-large;
 }
