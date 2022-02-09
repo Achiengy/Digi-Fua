@@ -1,0 +1,36 @@
+h1 {
+text-align: center;
+text-decoration: underline;
+}
+.bgc {
+background-color: #C4C4C4;
+display: flex;
+justify-content: space-between;
+height: 500px;
+}
+.write {
+width: 30em;
+height: 2em;
+border: 1px solid white;
+border-radius: 20px;
+background-color: white;
+}
+.message {
+width: 30em;
+height: 10em;
+border-radius: 20px;
+background-color: white
+}
+#btn {
+background-color: #23A6F0;
+width: 8em;
+height: 3em;
+border-radius: 2em;
+}
+.form1 {
+margin-left: 3em;
+float: left;
+}
+.form2 {
+display: flex;
+}
