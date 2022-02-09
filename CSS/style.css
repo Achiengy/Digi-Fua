@@ -1,17 +1,17 @@
 .one{
-    height: 400px;
-    width: 600px;
-    padding: 1px;
+    height: 300px;
+    width: 400px;
+    padding: 10px;
 }
 .two{
-    height: 400px;
-    width: 600px;
-    padding: 1px;
+    height: 300px;
+    width: 400px;
+    padding: 10px;
 }
 .three{
-    height: 400px;
-    width: 600px;
-    padding: 1px;
+    height:300px;
+    width: 400px;
+    padding: 10px;
 }
 .page{
     font-size:x-large
@@ -28,9 +28,27 @@
     display: inline-block;
     font-size: 15px;
     border-radius: 90px;
+    flex-direction: column;
 }
 .btn:hover{
      background-color: white;
      color: red;
-
 }
+.title{
+     color: purple;
+     font-size: x-large;
+}
+span1{
+     color: red;
+}
+span2{
+    color: green;
+}
+span3{
+    color: yellow;
+}
+span4{
+    color: black;
+}
+
+
