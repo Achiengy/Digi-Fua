@@ -9,6 +9,10 @@ font-weight: lighter;
 }
 .bgc {
 background-color: #C4C4C4;
+background-image: url(/img/students.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
