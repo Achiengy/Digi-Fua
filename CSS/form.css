@@ -20,3 +20,9 @@ h1 {
   color: black;
   margin-right: 250px;
 }
+.form1 h2 {
+  border: groove;
+  margin: 10px;
+  text-align: center;
+  background-color: blue;
+}
