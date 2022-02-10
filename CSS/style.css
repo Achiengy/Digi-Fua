@@ -39,3 +39,14 @@
     margin-left: 25%;
     height: 600px;
   }
+
+
+
+
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: gray;
+    padding: 0.5px;
+    color: white;
+  }
