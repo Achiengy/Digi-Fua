@@ -2,7 +2,7 @@
 /* Position the image container*/
 .home {
   position: relative;
-  background-color: wheat;
+  background-color: rgb(138, 163, 170);
   height: 113vh;
 }
 
@@ -90,9 +90,15 @@
 /* Container for image text */
 .caption-container {
   text-align: center;
-  background-color: gray;
+  background-color: rgba(0, 0, 0, 0.87);
   padding: 0.5px;
   color: white;
+  visibility: 
+}
+
+.row{
+  visibility:
+
 }
 
 .row:after {
@@ -115,7 +121,9 @@
 .active,
 .demo:hover {
   opacity: 1;
-} */
+} 
+
+
 
 
 
