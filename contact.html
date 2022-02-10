@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>digifua</title>
+</head>
+<body>
+  <h1>CONTACT US</h1>
+  <div id="feedback"></div>
+  <form name="details">
+    <div class="bgc">
+    <form>
+    <div class="form1">
+      <h3>FIRST NAME*</h3>
+      <input class="write" type="text" required placeholder="first name">
+      <h3>LAST NAME*</h3>
+      <input class="write" type="text" required placeholder="second name">
+      <h3>TELEPHONE NUMBER*</h3>
+      <input class="write" type="text" required placeholder="+2547xxxxxxxx">
+      <h3>YOUR EMAIL</h3>
+      <input class="write" type="text" required placeholder="Enter your email here...">
+      <h3>SERVICES</h3>
+      <select name="service" id="choose">
+      <option placeholder="Pick a service">Pick a service</option>
+      <option value="In-service">In-service</option>
+      <option value="Pick and Drop">Pick and Drop</option>
+      </select>
+    </div>
+    </form>
+    <div class="form2">
+    <form id="sms" action="#">
+      <h3>SUBJECT</h3>
+      <input class="write" type="text" required placeholder="SUBJECT">
+      <h3>MESSAGE</h3>
+      <input class="message" type="text" required placeholder="Type your messege here..."><br>
+      <button id="btn" type="submit" onclick="send()">SUBMIT</button>
+    </form>
+    </div>    
+    </div>
+    <div class="address">
+      <div class="office">
+      <h3>Digi-Fua main office</h3>
+      <address>
+      <i class="bi bi-geo-alt"></i>Ongata Rongai<br>
+       Zulu Plaza, second floor<br>
+       Kajiado County.
+      </address>
+      </div>
+      <div class="P&E">
+      <h3>Phone and email</h3>  
+      <i class="bi bi-telephone"></i>+25495968681 <br>
+      <i class="bi bi-envelope"></i> <a href="info@digifua.com">info@digifua.com</a>
+      </div>
+      <div class="hours">
+      <h3>Operating hours</h3>
+      <i class="bi bi-clock"></i> Mon - Fri - 0800hrs-1700hrs <br>
+      Sat & Sun - 1100hrs-1600hrs 
+      </div>
+    </div>
+    <footer class="bottom">
+      Find us on social media
+      <div class="media">
+      <i class="bi bi-facebook"></i>
+      <i class="bi bi-instagram"></i>
+      <i class="bi bi-twitter"></i>
+      </div>
+    </footer>
+    </form>
+ <script src="contact.js"></script>
+</body>
+</html>

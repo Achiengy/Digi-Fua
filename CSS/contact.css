@@ -1,0 +1,86 @@
+h1 {
+text-align: center;
+text-decoration: underline;
+position: relative;
+}
+h3 {
+font-style: normal;
+font-weight: lighter;
+}
+.bgc {
+background-color: #C4C4C4;
+background-image: url(/img/students.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+height: 500px;
+}
+.write {
+width: 20em;
+height: 2.5em;
+border: 1px solid white;
+border-radius: 20px;
+background-color: white;
+}
+#choose {
+width: 20em;
+height: 2.5em;
+border: 1px solid white;
+border-radius: 20px;
+background-color: white;
+display: flex;
+margin-top: 2.0em;
+}
+.message {
+width: 30em;
+height: 15em;
+border: 1px;
+border-radius: 20px;
+background-color: white;
+}
+#btn {
+background-color: #23A6F0;
+width: 8em;
+height: 3em;
+border-radius: 2em;
+margin-top: 3em;
+}
+.form1 {
+margin-left: 3em;
+float: left;
+font-family: 'Roboto' sans-serif;
+}
+.form2 {
+display: flex;
+margin-right: 3em;
+font-family: 'Roboto'sans-serif;
+}
+.address {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+justify-content: space-around;
+}
+.bottom {
+display: flex;
+justify-content: center;
+margin-top: 2em;
+}
+.media {
+display: flex;
+justify-content: space-between;
+margin-left: 1em;
+}
+button:hover {
+color: white;
+cursor: pointer; 
+}
+#feedback {
+display: flex;
+justify-content: center;
+background-color: #23A6F0;
+font-size: xx-large;
+}
