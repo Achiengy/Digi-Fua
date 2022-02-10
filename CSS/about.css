@@ -1,8 +1,14 @@
+body{
+    background-image: url(/Images/hand-washing.jpg);
+    background-size: cover;
+}
+
 h1{
     text-align: center;
     padding-top: 2%;
     color: #23A6F0;
     font-size: 3.5em;
+    font-weight: bolder;
 }
 
 h2{
@@ -14,18 +20,15 @@ h2{
 #first{
     text-align: center;
     padding-top: 20px;
+    font-weight: bolder;
 }
 
 #second{
-    font-weight: bold;
+    font-weight: bolder;
     text-align: center;
     padding-top: 20px;
 }
 
-h3{
-    text-align: center;
-    
-}
 
 .goals{
     display: flex;
@@ -36,22 +39,26 @@ h3{
 h3{
     font-size: 2.2em;
     color: #23A6F0;
+    font-weight: bolder;
+    text-align: center;
 }
 
 #values>p{
-    font-weight: bold;
-    font-size: 1.5em;
+    font-weight: bolder;
+    font-size: 1.6em;
     letter-spacing: 1px;
 }
 
 #mission>p{
-    font-size: 1.5em;
+    font-size: 1.6em;
     letter-spacing: 1px;
+    font-weight: bold;
 }
 
 #vision>p{
-    font-size: 1.5em;
+    font-size: 1.6em;
     letter-spacing: 1px;
+    font-weight: bold;
 }
 
 

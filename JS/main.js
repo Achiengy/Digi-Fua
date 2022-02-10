@@ -1,3 +1,13 @@
+// FUNCTION FOR SEARCH BUTTON
+var a = document.getElementById('tfnewsearch');
+a.addEventListener('submit',function(e) {
+    e.preventDefault();
+    var b = document.getElementById('tftextinput').value;
+    // window.location.href = ''+b;
+
+});
+
+
 // Image Slider(Home-Page)
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -29,11 +39,3 @@ function showSlides(n) {
 }
 
 
-
-var a = document.getElementById('tfnewsearch');
-a.addEventListener('submit',function(e) {
-    e.preventDefault();
-    var b = document.getElementById('tftextinput').value;
-    // window.location.href = ''+b;
-
-});
