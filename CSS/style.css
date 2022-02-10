@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     /* max-width:100%; */
+    flex-wrap: wrap;
 
 }
 
@@ -19,22 +20,22 @@
 }
 h1{
    text-align: center;
-    font-size: 40px;
+    font-size: 50px;
 }
 #p1{
     /* position: relative;
     left: 600px; */
     font-style: italic;
     color: #23A6F0;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
 
 }
 .inservice img{
-    height: 350px;
-    width: 550px;
-    /* position: relative;
-    left: 20px; */
+    height: 400px;
+    width: 750px;
+     position: relative;
+    left: 20px; 
     margin: 10px;
     flex-direction: column;
 }
@@ -42,10 +43,11 @@ h1{
     display:flex;
     position: relative;
 
+
 }
 .door img{
-    height: 350px;
-    width: 550px;
+    height: 400px;
+    width: 750px;
     position: relative;
     left: 20px;
     margin-top: 10px;
@@ -58,11 +60,13 @@ h3{
 .inservice{
     background:#c4c4c4; 
     box-shadow:100px;
-    height: 600px;
+    height: 720px;
     box-shadow: 10px;
     position: relative;
     left: 100px;
-    width: 650px;
+    width: 850px;
+    border-radius: 10px;
+    font-size: 30px;
     
 
 }
@@ -71,11 +75,13 @@ h3{
 }
 .door{
     background:#c4c4c4;
-    height: 600px;
+    height: 720px;
     box-shadow: 100px;
     position: relative;
-    left: 100px;
-    width: 650px;
+    left: 200px;
+    width: 850px;
+    border-radius: 10px;
+    font-size: 30px;
 }
 
 .door p{
@@ -100,21 +106,25 @@ h3{
     display: flex;
     background-color: whitesmoke;
     height: 300px;
-    width: 1400px;
+    width: 1800px;
     align-items: center; 
     position:relative;
     left: 200px;
-    margin-top: 60px; 
+    margin-top: 200px; 
     justify-content: space-between;
    
 }
 .rv2{
-    font-size: 20px;
-    margin-right: 70px;
+    font-size: 25px;
+    margin-right: 50px;
 }
 .rv1{
     margin-left: 50px;
-    font-size: 20px;
+    font-size: 25px;
+}
+.rv3{
+    font-size: 25px;
+    margin: 20px;
 }
 .door{
     position: relative;
@@ -143,5 +153,30 @@ h3{
 .service :hover{
     color:blue;
 }
+
+
+
+
+@media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+      display: none;
+
+    }
+    .service{
+        display: flex;
+        flex-wrap: row;
+        
+    }
+    
+
+
+    
+}
+
+
+
+
 
 
