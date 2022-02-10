@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+
+}
+
+
+
+.container3{
+    position: absolute;
+    background-color:rgb(30, 148, 163);
+    width: 100%;
+    height:130vh;
+    top: 0;
+    left: 0;
+
+}
+h1{
+   text-align: center;
+    font-size: 50px;
+}
+#p1{
+
+    font-style: italic;
+    color: #23A6F0;
+    font-size: 40px;
+    text-align: center;
+
+}
+.inservice img{
+    height: 400px;
+    width: 750px;
+     position: relative;
+    left: 20px; 
+    margin: 10px;
+    flex-direction: column;
+}
+.service{
+    display:flex;
+    position: relative;
+
+
+}
+.door img{
+    height: 400px;
+    width: 750px;
+    position: relative;
+    left: 20px;
+    margin-top: 10px;
+}
+h3{
+    text-align: center;
+
+}
+
+.inservice{
+    background:#c4c4c4; 
+    box-shadow:100px;
+    height: 720px;
+    box-shadow: 10px;
+    position: relative;
+    left: 100px;
+    width: 850px;
+    border-radius: 10px;
+    font-size: 30px;
+    
+
+}
+.inservice p{
+    text-align: center;
+}
+.door{
+    background:#c4c4c4;
+    height: 720px;
+    box-shadow: 100px;
+    position: relative;
+    left: 200px;
+    width: 850px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.door p{
+    text-align: center;
+}
+#bt1{
+    padding: 10px;
+    border:1px solid;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    background-color:blue;
+    position: relative; 
+    left: 300px;
+    top: 40px;
+    border-style:none ;
+
+}
+
+.reviews{
+    padding-top:10px;
+    display: flex;
+    background-color: whitesmoke;
+    height: 300px;
+    width: 1800px;
+    align-items: center; 
+    position:relative;
+    left: 200px;
+    margin-top: 200px; 
+    justify-content: space-between;
+   
+}
+.rv2{
+    font-size: 25px;
+    margin-right: 50px;
+}
+.rv1{
+    margin-left: 50px;
+    font-size: 25px;
+}
+.rv3{
+    font-size: 25px;
+    margin: 20px;
+}
+.door{
+    position: relative;
+    left:300px;
+}
+.fas{
+    color: orange;
+    width: 100px;
+    height: 20%;
+}
+.checked{
+    color: goldenrod;
+}
+.check{
+    color: gray;
+}
+
+.service :hover{
+    color:blue;
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+    [class*="col-"] {
+      width: 100%;
+      display: none;
+
+    }
+    .service{
+        display: flex;
+        flex-wrap: row;
+        
+    }
+    
+
+
+    
+}
+
+
+
+
+
+
