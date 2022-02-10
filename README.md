@@ -1,9 +1,10 @@
 # Digi-Fua
-![Digi-Fua]("./Images/digi-fua.png")
+# ![Digi-Fua](/Images/digi-fua.png)
 
 ### It is a description of overall content of module 1(pre-prep) at Moringa School.
 
 ### Project design link
+https://www.figma.com/file/kuusKMmtvx8mFpqTzAgSev/DIGI-FUA?node-id=0%3A1
 
 ## Table of Content
 
@@ -18,7 +19,7 @@
 <p>This is  a website that allows users request for laundry services,either in service or pick & drop.</p>
 
 ## Installation
-Clone this repository to your local system
+Clone this repository to your local system.https://github.com/Achiengy/Digi-Fua.git
 
 ### Requirements
 
@@ -37,7 +38,7 @@ Clone this repository to your local system
 *JavaScript - used to call a function in HTML 
 
 ## Reference
-*
+*MDN Docs("https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference")
 
 [Go Back to the top](#portfolio)
 
@@ -67,7 +68,7 @@ SOFTWARE.
 
 [Go Back to the top](#portfolio)
 
-## Authors Info
+## Contributors Info
 Linked - [Hope Pete](https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3Bm11EDIJVSQu29ovQ2888fA%3D%3D)
 
 [Go Back to the top](#portfolio)
