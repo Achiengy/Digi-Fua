@@ -4,7 +4,8 @@ button.addEventListener("click", (e)=> {
   send()
 })
 function send(){
-var messege = document.getElementById("feedback");
-details.style.display = 'none'
-feedback.textContent = "MESSEGE RECEIVED."
+let messege = document.getElementById("feedback")
+details.style.display = 'none';
+feedback.textContent = "MESSEGE RECEIVED.";
+
 }
