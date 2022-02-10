@@ -6,45 +6,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="CSS/form.css">
 </head>
 
 <body>
     <h1>ORDER FORM</h1>
     <div class="form-container">
         <div class="form1">
-            <form>
+            <form name="pick" id="myForm">
                 <h2>PICK AND DROP</h2>
                 <label for="fname">Name:</label><br>
                 <input type="text" id="fname" placeholder="Enter Your Name"><br><br>
                 <label for="email">Email:</label><br>
-                <input type="email" id="email" placeholder="example@gmail.com"> <br><br>
+                <input type="email" id="email" required placeholder="example@gmail.com"> <br><br>
                 <label for="PhoneNo">Phone Number:</label><br>
-                <input type="tel" id="phone" placeholder="07xxxxxxxx"><br><br>
+                <input type="tel" id="PhoneNo" required placeholder="07xxxxxxxx"><br><br>
                 <label for="station">Pick Up Station:</label><br>
                 <select name="station" id="station"><br><br>
                     <option value="">Pick Your Location</option>
-                    <option value="Multimedia">Multimedia University</option>
-                    <option value="Nazarene">African Nazarene University</option>
-                    <option value="Catholic">Catholic university</option>
-                    <option value="Cooperative">Cooperative University</option>
-                    <option value="Rongai">Rongai Stage</option>
+                    <option value="Multimedia" id="Multimedia">Multimedia University</option>
+                    <option value="Nazarene" id="ANU">African Nazarene University</option>
+                    <option value="Catholic" id="CU">Catholic university</option>
+                    <option value="Cooperative" id="coop">Cooperative University</option>
+                    <option value="Rongai" id="ron">Rongai Stage</option>
                 </select><br><br>
-                <label for="ppt">Select Pick UP Time</label><br>
-                <input type="time" id="appt" name="appt" min="09:00" max="18:00" require><br><br>
-                <br>
-                <button class="btn">GET PRICE ESTIMATE</button>
+                <label for="ppt">Select Pick UP Time:</label><br>
+                <input type="time" id="ppt" name="ppt" min="09:00" max="18:00" require><br><br>
+                <label for="pieces">Number Of Pieces:</label><br>
+                <select name="pieces" id="pieces"><br><br>
+                    <option value="">Pick Your Range</option>
+                    <option value="Less-than-twenty-Pieces" id="twenty">Less-than-20Pieces</option>
+                    <option value="twenty-thirty-Pieces" id="thirty">20-30Pieces</option>
+                    <option value="thirty-forty-Pieces" id="forty">30-40Pieces</option>
+                    <option value="forty-fifty-Pieces" id="fifty">40-50Pieces</option>
+                </select><br><br>
+                <button class="btn" type="submit">GET PRICE ESTIMATE</button>
             </form>
+            <div id="pay"></div>
         </div>
+
         <div class="form2">
-            <form>
+            <form name="service" id="sForm">
                 <h2>IN-SERVICE</h2>
                 <label for="fname">Name:</label><br>
                 <input type="text" id="fname" placeholder="Enter Your Name"><br>
                 <label for="email">Email:</label><br>
                 <input type="email" id="email"> <br>
                 <label for="PhoneNo">Phone Number:</label><br>
-                <input type="tel" id="phone" placeholder="07XXXXXXXX"><br>
+                <input type="tel" id="PhoneNo" required placeholder="07XXXXXXXX"><br>
                 <label for="house"></label>House Number:</label><br>
                 <input type="number" id="house" min="1" max="100"><br>
                 <label for="dat">Date</label><br>
@@ -52,11 +61,19 @@
                 <label for="ppt">Time:</label><br>
                 <input type="time" id="ppt" name="ppt" min="09:00" max="18:00" require><br>
                 <br>
-                <button class="btn">GET PRICE ESTIMATE</button>
+                <label for="pieces">Number Of Pieces:</label><br>
+                <select name="pieces" id="pieces"><br><br>
+                    <option value="">Pick Your Range</option>
+                    <option value="Less than 20Pieces">Less than 20Pieces</option>
+                    <option value="20-30Pieces">20-30Pieces</option>
+                    <option value="30-40Pieces">30-40Pieces</option>
+                    <option value="40-50Pieces">40-50Pieces</option>
+                </select><br><br>
+                <button class="btn" type="submit" onclick="estimatePrice()">GET PRICE ESTIMATE</button>
             </form>
         </div>
     </div>
-
+    <script src="./form.js"></script>
 </body>
 
 </html>
