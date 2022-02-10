@@ -1,76 +1,123 @@
-* Position the image container*/
+
+/* Position the image container*/
 .home {
-    position: relative;
-    background-color: wheat;
-    height: 113vh;
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
+  position: relative;
+  background-color: wheat;
+  height: 113vh;
+}
 
-  /* Style the images by id */
-  #img1{
-    height: 600px;
-    width: 700px;
-    margin-left: 20%;
-    margin-top: 2%;
-  }
-  #img2{
-    height: 500px;
-    margin-top: 5%;
-    margin-left: 15%;
-  }
-  #img3{
-    height: 600px;
-    margin-left: 20%;
-    width: 60%;
-  }
-  #img4{
-    height: 600px;
-    margin-left: 20%;
-  }
-  #img5{
-    height: 600px;
-    margin-left: 20%;
-  }
-  #img6{
-    margin-left: 25%;
-    height: 600px;
-  }
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
 
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-    background: rgba(0, 0, 0, 0.8);
-  }
-  
-  /* On hover, add background color */
-  .prev:hover,
-  .next:hover {
-    background-color: #23A6F0;
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    /* color: #f2f2f2;
-    font-size: 2px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0; */
-    visibility: hidden;
-  }
-  
+/* Style the images by id */
+#img1{
+  height: 600px;
+  width: 700px;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+#img2{
+  height: 500px;
+  margin-top: 5%;
+  margin-left: 15%;
+}
+#img3{
+  height: 600px;
+  margin-left: 20%;
+  width: 60%;
+}
+#img4{
+  height: 600px;
+  margin-left: 20%;
+}
+#img5{
+  height: 600px;
+  margin-left: 20%;
+}
+#img6{
+  margin-left: 25%;
+  height: 600px;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  background: black;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* On hover, add background color */
+.prev:hover,
+.next:hover {
+  background-color: #23A6F0;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  /* color: #f2f2f2;
+  font-size: 2px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0; */
+  visibility: hidden;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: gray;
+  padding: 0.5px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+} */
 
 
 
 
-  /* Container for image text */
-  .caption-container {
-    text-align: center;
-    background-color: gray;
-    padding: 0.5px;
-    color: white;
-  }
+
