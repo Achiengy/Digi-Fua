@@ -27,3 +27,13 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+
+
+var a = document.getElementById('tfnewsearch');
+a.addEventListener('submit',function(e) {
+    e.preventDefault();
+    var b = document.getElementById('tftextinput').value;
+    // window.location.href = ''+b;
+
+});
