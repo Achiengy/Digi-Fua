@@ -1,0 +1,55 @@
+.one{
+    height: 300px;
+    width: 400px;
+    padding: 10px;
+}
+.two{
+    height: 300px;
+    width: 400px;
+    padding: 10px;
+}
+.three{
+    height:300px;
+    width: 400px;
+    padding: 10px;
+}
+.page{
+    font-size:x-large
+}
+.content{
+    background-color: lightgrey;          
+}
+.btn{
+    background-color: aqua;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: aqua;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 90px;
+    flex-direction: column;
+}
+.btn:hover{
+     background-color: white;
+     color: red;
+}
+.title{
+     color: purple;
+     font-size: x-large;
+}
+span1{
+     color: red;
+}
+span2{
+    color: green;
+}
+span3{
+    color: yellow;
+}
+span4{
+    color: black;
+}
+
+
+   
