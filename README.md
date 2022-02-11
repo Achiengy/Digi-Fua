@@ -27,8 +27,6 @@ Clone this repository to your local system.https://github.com/Achiengy/Digi-Fua.
 
 * An access to the Internet
 
-### Installation Process
-
 [Go Back to the top](#portfolio)
 ## Technology Used
 * HTML - which was used to build the structure of the pages.
