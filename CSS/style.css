@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100&display=swap');
 
-
-
 body{
   margin: 0%;
   padding: 0%;
@@ -10,7 +8,7 @@ body{
 /* Position the image container*/
 .home {
   position: relative;
-  background-color: #23A6F0;
+  background-color: #DCF8F6;
   height: 120vh;
 }
 
@@ -39,6 +37,7 @@ width: 150px;
   display: inline-block;
   list-style: none;
   padding: 0px 60px;
+  font-size: 1.5em;
   font-weight: bold;
 }
 
