@@ -1,5 +1,5 @@
 # Digi-Fua
-# ![Digi-Fua](/Images/digi-fua1.png)
+# ![Digi-Fua](/Images/digi-fua.png)
 
 
 ### Project design link
