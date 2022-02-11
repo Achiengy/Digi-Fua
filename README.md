@@ -40,7 +40,7 @@ Clone this repository to your local system.https://github.com/Achiengy/Digi-Fua.
 
 [Go Back to the top](#portfolio)
 
-## Licence
+## License
 
 MIT License
 
@@ -66,13 +66,15 @@ SOFTWARE.
 
 [Go Back to the top](#portfolio)
 
-## Contributors Info
+## Author's Info
 Linked - [Hope Pete](https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3Bm11EDIJVSQu29ovQ2888fA%3D%3D)
-Nina Odoyo
-Peter Karongo
-Francis Mwangi
-Moses Karani
-Christine Mwangi
+
+## Contributors
+* Nina Odoyo
+* Peter Karongo
+* Francis Mwangi
+* Moses Karani
+* Christine Mwangi
 
 
 [Go Back to the top](#portfolio)
