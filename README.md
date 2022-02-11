@@ -1,7 +1,6 @@
 # Digi-Fua
-# ![Digi-Fua](/Images/digi-fua.png)
+# ![Digi-Fua](/Images/digi-fua1.png)
 
-### It is a description of overall content of module 1(pre-prep) at Moringa School.
 
 ### Project design link
 https://www.figma.com/file/kuusKMmtvx8mFpqTzAgSev/DIGI-FUA?node-id=0%3A1
@@ -9,7 +8,8 @@ https://www.figma.com/file/kuusKMmtvx8mFpqTzAgSev/DIGI-FUA?node-id=0%3A1
 ## Table of Content
 
 + [Description](#description)
-+ [Installation Requirement](#Installation)
++ [Installation](#Installation)
++ [Requirement](#Requirement)
 + [Technology Used](#technology-used)
 + [Reference](#reference)
 + [Licence](#licence)
@@ -35,7 +35,7 @@ Clone this repository to your local system.https://github.com/Achiengy/Digi-Fua.
 
 * CSS - which was used to style the pages incuding the left aside navigation bar
 
-*JavaScript - used to call a function in HTML 
+* JavaScript - used to call a function in HTML 
 
 ## Reference
 *MDN Docs("https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference")
@@ -70,5 +70,11 @@ SOFTWARE.
 
 ## Contributors Info
 Linked - [Hope Pete](https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3Bm11EDIJVSQu29ovQ2888fA%3D%3D)
+Nina Odoyo
+Peter Karongo
+Francis Mwangi
+Moses Karani
+Christine Mwangi
+
 
 [Go Back to the top](#portfolio)
